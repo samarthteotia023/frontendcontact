@@ -1,5 +1,5 @@
 "use client"
-const UR="http://localhost:8000"
+const UR="https://contact-p9wt.onrender.com"
 
 
 export async function fetchAPI(

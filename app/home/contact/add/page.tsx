@@ -174,6 +174,7 @@ const Add = () => {
  block w-full p-2.5 "
             required
           >
+            <option value={""}></option>
             {data?.labels?.map((item: any, index: number) => (
               <option key={index} value={item._id}>{item.name}</option>
             ))}
